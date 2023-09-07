@@ -1,0 +1,17 @@
+{
+  "name": "enc/copypro",
+  "description": "Create copy products in specific used case.",
+  "require": {
+    "php": ">=7.4"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Enc\\CopyPro\\": ""
+    }
+  }
+}
